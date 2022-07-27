@@ -1,0 +1,311 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<androidx.core.widget.NestedScrollView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+<androidx.constraintlayout.widget.ConstraintLayout
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <TextView
+        android:id="@+id/home_discoverTxt"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="16dp"
+        android:layout_marginStart="8dp"
+        android:text="@string/discover_txt"
+        android:textColor="@color/black"
+        android:textSize="20sp"
+        android:textStyle="bold"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:id="@+id/home_offerTxt"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="16dp"
+        android:layout_marginStart="8dp"
+        android:drawableStart="@drawable/offers_homs"
+        android:drawablePadding="8dp"
+        android:text="@string/offer_txt"
+        android:textColor="@color/black"
+        android:textSize="20sp"
+        android:textStyle="bold"
+        app:layout_goneMarginTop="130dp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/home_recyclerview" />
+    <TextView
+        android:id="@+id/more_category"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginEnd="8dp"
+        android:drawableEnd="@drawable/ic_more"
+        android:text="@string/more_txt"
+        android:textSize="18sp"
+        app:layout_constraintBottom_toBottomOf="@+id/home_discoverTxt"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toTopOf="@+id/home_discoverTxt" />
+
+    <TextView
+        android:id="@+id/more_offers"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginEnd="8dp"
+        android:drawableEnd="@drawable/ic_more"
+        android:text="@string/more_txt"
+        android:textSize="18sp"
+        app:layout_constraintBottom_toBottomOf="@+id/home_offerTxt"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toTopOf="@+id/home_offerTxt" />
+
+    <TextView
+        android:id="@+id/home_savesTxt"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="16dp"
+        android:layout_marginStart="8dp"
+        android:drawableStart="@drawable/ic_saves"
+        android:drawablePadding="8dp"
+        android:text="@string/saves_txt"
+        android:textColor="@color/black"
+        android:textSize="20sp"
+        android:textStyle="bold"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/offers_pager" />
+
+    <TextView
+        android:id="@+id/more_saves"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginEnd="8dp"
+        android:drawableEnd="@drawable/ic_more"
+        android:text="@string/more_txt"
+        android:textSize="18sp"
+        app:layout_constraintBottom_toBottomOf="@+id/home_savesTxt"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toTopOf="@+id/home_savesTxt" />
+
+    <TextView
+        android:id="@+id/home_discountsTxt"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="16dp"
+        android:layout_marginStart="8dp"
+        android:drawableStart="@drawable/discounts_image"
+        android:drawablePadding="8dp"
+        android:text="@string/discount_txt"
+        android:textColor="@color/black"
+        android:textSize="20sp"
+        android:textStyle="bold"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/saves_pager" />
+
+    <TextView
+        android:id="@+id/more_discounts"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginEnd="8dp"
+        android:drawableEnd="@drawable/ic_more"
+        android:text="@string/more_txt"
+        android:textSize="18sp"
+        app:layout_constraintBottom_toBottomOf="@+id/home_discountsTxt"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toTopOf="@+id/home_discountsTxt" />
+
+    <androidx.constraintlayout.widget.Guideline
+        android:id="@+id/guideline2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        app:layout_constraintGuide_begin="92dp"
+        />
+<com.facebook.shimmer.ShimmerFrameLayout
+    android:id="@+id/discover_shimmer"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="horizontal"
+    android:layout_marginTop="8dp"
+    app:layout_constraintEnd_toEndOf="parent"
+    app:layout_constraintStart_toStartOf="parent"
+    app:layout_constraintTop_toBottomOf="@+id/home_discoverTxt">
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="match_parent"
+        android:orientation="horizontal">
+        <include layout="@layout/shimmer_discover_item"/>
+        <include layout="@layout/shimmer_discover_item"/>
+        <include layout="@layout/shimmer_discover_item"/>
+        <include layout="@layout/shimmer_discover_item"/>
+        <include layout="@layout/shimmer_discover_item"/>
+        <include layout="@layout/shimmer_discover_item"/>
+    </LinearLayout>
+
+</com.facebook.shimmer.ShimmerFrameLayout>
+    <androidx.recyclerview.widget.RecyclerView
+        android:id="@+id/home_recyclerview"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="8dp"
+        android:orientation="horizontal"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/home_discoverTxt" />
+    <com.facebook.shimmer.ShimmerFrameLayout
+        android:id="@+id/offer_shimmer"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_marginStart="8dp"
+        android:layout_marginTop="16dp"
+        android:layout_marginEnd="8dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_goneMarginTop="16dp"
+        app:layout_constraintTop_toBottomOf="@+id/discover_shimmer">
+        <include layout="@layout/offers_slider_shimmer"/>
+    </com.facebook.shimmer.ShimmerFrameLayout>
+    <androidx.recyclerview.widget.RecyclerView
+        android:id="@+id/offers_pager"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="8dp"
+        android:layout_marginTop="16dp"
+        android:layout_marginEnd="8dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/home_offerTxt" />
+    <com.facebook.shimmer.ShimmerFrameLayout
+        android:id="@+id/saves_shimmer"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_marginStart="8dp"
+        android:layout_marginTop="16dp"
+        android:layout_marginEnd="8dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/offer_shimmer" >
+
+        <include layout="@layout/saves_slider_shimmer" />
+    </com.facebook.shimmer.ShimmerFrameLayout>
+    <androidx.recyclerview.widget.RecyclerView
+        android:id="@+id/saves_pager"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="8dp"
+        android:layout_marginTop="16dp"
+        android:layout_marginEnd="8dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/home_savesTxt" />
+    <com.facebook.shimmer.ShimmerFrameLayout
+        android:id="@+id/discounts_shimmer"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_marginStart="8dp"
+        android:layout_marginTop="16dp"
+        android:layout_marginEnd="8dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/saves_shimmer" >
+        <include layout="@layout/discounts_slider_shimmer"/>
+    </com.facebook.shimmer.ShimmerFrameLayout>
+    <androidx.recyclerview.widget.RecyclerView
+        android:id="@+id/discounts_pager"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="8dp"
+        android:layout_marginTop="16dp"
+        android:layout_marginEnd="8dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/home_discountsTxt" />
+    <TextView
+        android:id="@+id/home_antagTxt"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="16dp"
+        android:layout_marginStart="8dp"
+        android:drawableStart="@drawable/discounts_image"
+        android:drawablePadding="8dp"
+        android:text="@string/near_by_txt"
+        android:textColor="@color/black"
+        android:textSize="20sp"
+        android:textStyle="bold"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/discounts_pager" />
+    <TextView
+        android:id="@+id/home_add_location"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="8dp"
+        android:text="@string/add_location"
+        android:textColor="@color/google_color"
+        android:textSize="20sp"
+        android:textStyle="bold"
+        app:layout_constraintStart_toEndOf="@+id/home_antagTxt"
+        app:layout_constraintTop_toTopOf="@id/home_antagTxt"
+        app:layout_constraintBottom_toBottomOf="@+id/home_antagTxt"/>
+
+    <TextView
+        android:id="@+id/more_antag"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginEnd="8dp"
+        android:drawableEnd="@drawable/ic_more"
+        android:text="@string/more_txt"
+        android:textSize="18sp"
+        app:layout_constraintBottom_toBottomOf="@+id/home_antagTxt"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toTopOf="@+id/home_antagTxt" />
+
+    <androidx.recyclerview.widget.RecyclerView
+        android:id="@+id/antag_recyclerview"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="8dp"
+        android:orientation="horizontal"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/home_antagTxt" />
+<androidx.constraintlayout.widget.Group
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:id="@+id/furniture_group"
+    android:visibility="gone"
+    app:constraint_referenced_ids="antag_recyclerview,more_antag"/>
+    <ImageView
+        android:id="@+id/qr_img"
+        android:layout_width="0dp"
+        android:layout_height="150dp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/antag_recyclerview"
+        app:layout_goneMarginTop="16dp"
+        android:layout_marginTop="8dp"
+        android:src="@drawable/qr_code"
+        />
+    <ImageView
+        android:id="@+id/qr_camera"
+        android:layout_width="50dp"
+        android:layout_height="50dp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="@+id/qr_img"
+        app:layout_constraintBottom_toTopOf="@+id/qr_img"
+        android:src="@drawable/camera"
+        android:layout_marginTop="8dp"
+        android:layout_marginStart="16dp"/>
+    <androidx.constraintlayout.widget.Group
+        android:id="@+id/grou_qr"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        app:constraint_referenced_ids="qr_camera,qr_img,more_category,more_discounts,
+more_offers,more_saves,home_add_location,home_antagTxt,home_recyclerview,home_discountsTxt,
+home_discoverTxt,
+home_offerTxt,home_savesTxt"
+        android:visibility="gone"/>
+
+</androidx.constraintlayout.widget.ConstraintLayout>
+</androidx.core.widget.NestedScrollView>

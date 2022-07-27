@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools">
+<com.google.android.material.appbar.AppBarLayout
+    android:id="@+id/app_bar"
+    android:layout_width="0dp"
+    android:layout_height="wrap_content"
+    app:layout_constraintStart_toStartOf="parent"
+    app:layout_constraintEnd_toEndOf="parent"
+    app:layout_constraintTop_toTopOf="parent"
+    >
+    <androidx.appcompat.widget.Toolbar
+        android:id="@+id/tool_bar"
+        android:layout_width="match_parent"
+        android:layout_height="?actionBarSize"
+        android:background="@color/white">
+        <TextView
+            android:id="@+id/title_tool_bar"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            tools:text="الاسم"
+            android:textSize="20sp"
+            android:textColor="@color/black"
+            android:layout_gravity="start"
+            android:textStyle="bold"
+            android:layout_marginStart="8dp"
+            android:drawablePadding="8dp"
+            android:drawableStart="@drawable/ic_baseline_keyboard_arrow_left_24"
+            />
+    </androidx.appcompat.widget.Toolbar>
+</com.google.android.material.appbar.AppBarLayout>
+ <androidx.recyclerview.widget.RecyclerView
+     android:id="@+id/list_fragment_recyclerview"
+     android:layout_width="0dp"
+     android:layout_height="0dp"
+     app:layout_constraintStart_toStartOf="parent"
+     app:layout_constraintEnd_toEndOf="parent"
+     app:layout_constraintTop_toBottomOf="@+id/app_bar"
+     app:layout_constraintBottom_toBottomOf="parent"
+     android:layout_marginTop="16dp"
+     android:layout_marginStart="8dp"
+     android:layout_marginEnd="8dp"/>
+</androidx.constraintlayout.widget.ConstraintLayout>

@@ -1,0 +1,56 @@
+<resources>
+    <string name="app_name">FurnitureTask</string>
+    <string name="login_text">Login</string>
+    <string name="email_hint">Email or phone number</string>
+    <string name="login_password">Password</string>
+    <string name="facebook_app_id" translatable="false">743593940303793</string>
+    <string name="fb_login_protocol_scheme" translatable="false">fb743593940303793</string>
+    <string name="facebook_client_token" translatable="false">8f6f12c3e6270c7942918b06f1273db7</string>
+    <string name="password_hint">Password</string>
+    <string name="forget_password">Forget Password ?</string>
+    <string name="register_by">Or Register By</string>
+    <string name="facebook_register">Login By Facebook</string>
+    <string name="google_register">Login By Google</string>
+    <string name="have_no_account">Do not have account? Register</string>
+    <string name="create_account">Create Account</string>
+    <string name="name_hint">Name</string>
+    <string name="email_register_hint">Email</string>
+    <string name="phone_register">phone</string>
+    <string name="address_hint">address</string>
+    <string name="password_confirm_hint">Confirm Password</string>
+    <string name="have_account">Have an Account? Login</string>
+    <string name="order_now">Order Now</string>
+    <string name="categories_txt">Categories</string>
+    <string name="most_wanted_txt">Most Wanted</string>
+    <string name="offer_txt">Offers</string>
+    <string name="saves_txt">Save to 50%</string>
+    <string name="discount_txt">Discounts</string>
+    <string name="discover_txt">Discover more Furniture</string>
+    <string name="more_txt">Watch more</string>
+    <string name="near_by_txt">Near By Stores</string>
+    <string name="add_location">Add Your Location</string>
+    <string name="profile_txt">Profile</string>
+    <string name="old_password">Old password</string>
+    <string name="update_txt">update</string>
+    <string name="price_txt">price</string>
+    <string name="price_before">Price before discount: %d</string>
+    <string name="price_after">Price after discount: %d</string>
+    <string name="details">Details</string>
+    <string name="loading">Loading…</string>
+    <string name="store_page">Store Page</string>
+    <string name="store_rates">Store Rates</string>
+    <string name="store_info">Store Info</string>
+    <string name="rate">Rate</string>
+    <string name="error">Some thing wrong happened be sure from internet connection</string>
+    <string name="enable_location">please active your location</string>
+    <string name="location_perm">This permission required to get nearby Stores</string>
+    <string name="add_favorite">added to favorites</string>
+    <string name="offer_ended">this offer ended at :</string>
+    <string name="offer_available">this offer available at :</string>
+    <string name="success_login">Login</string>
+    <string name="success_reg">Success Login</string>
+    <string name="enter_email">Enter Your Email</string>
+    <string name="not_same_pass">Password is not the same</string>
+    <string name="required_fields">All Fields are Required</string>
+
+</resources>

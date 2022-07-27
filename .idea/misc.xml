@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="DesignSurface">
+    <option name="filePathToZoomLevelMap">
+      <map>
+        <entry key="..\:/MyApps/FurnitureTask/app/src/main/res/drawable-xhdpi/offers_background.xml" value="0.192" />
+        <entry key="..\:/MyApps/FurnitureTask/app/src/main/res/drawable/circle_color.xml" value="0.19" />
+        <entry key="..\:/MyApps/FurnitureTask/app/src/main/res/drawable/dot_default.xml" value="0.19" />
+        <entry key="..\:/MyApps/FurnitureTask/app/src/main/res/drawable/dot_selected.xml" value="0.19" />
+        <entry key="..\:/MyApps/FurnitureTask/app/src/main/res/drawable/ic_baseline_email_24.xml" value="0.1725" />
+        <entry key="..\:/MyApps/FurnitureTask/app/src/main/res/drawable/ic_baseline_keyboard_arrow_right_24.xml" value="0.123" />
+        <entry key="..\:/MyApps/FurnitureTask/app/src/main/res/drawable/ic_baseline_location.xml" value="0.19" />
+        <entry key="..\:/MyApps/FurnitureTask/app/src/main/res/drawable/ic_baseline_password_24.xml" value="0.123" />
+        <entry key="..\:/MyApps/FurnitureTask/app/src/main/res/drawable/ic_baseline_rate_review.xml" value="0.19" />
+        <entry key="..\:/MyApps/FurnitureTask/app/src/main/res/drawable/ic_facebook.xml" value="0.1655" />
+        <entry key="..\:/MyApps/FurnitureTask/app/src/main/res/drawable/ic_favorite_.xml" value="0.123" />
+        <entry key="..\:/MyApps/FurnitureTask/app/src/main/res/drawable/ic_google.xml" value="0.1655" />
+        <entry key="..\:/MyApps/FurnitureTask/app/src/main/res/drawable/ic_more.xml" value="0.19" />
+        <entry key="..\:/MyApps/FurnitureTask/app/src/main/res/drawable/ic_saves.xml" value="0.192" />
+        <entry key="..\:/MyApps/FurnitureTask/app/src/main/res/drawable/ic_tags_line.xml" value="0.192" />
+        <entry key="..\:/MyApps/FurnitureTask/app/src/main/res/drawable/ic_time.xml" value="0.123" />
+        <entry key="..\:/MyApps/FurnitureTask/app/src/main/res/drawable/ic_unfavorite.xml" value="0.19" />
+        <entry key="..\:/MyApps/FurnitureTask/app/src/main/res/drawable/input_background.xml" value="0.1655" />
+        <entry key="..\:/MyApps/FurnitureTask/app/src/main/res/drawable/tab_selector.xml" value="0.19" />
+        <entry key="..\:/MyApps/FurnitureTask/app/src/main/res/layout/activity_home.xml" value="0.15775972637879435" />
+        <entry key="..\:/MyApps/FurnitureTask/app/src/main/res/layout/activity_login.xml" value="0.25" />
+        <entry key="..\:/MyApps/FurnitureTask/app/src/main/res/layout/activity_main.xml" value="0.17074275362318841" />
+        <entry key="..\:/MyApps/FurnitureTask/app/src/main/res/layout/activity_registration.xml" value="0.15775972637879435" />
+        <entry key="..\:/MyApps/FurnitureTask/app/src/main/res/layout/branches_item.xml" value="0.15433946130825138" />
+        <entry key="..\:/MyApps/FurnitureTask/app/src/main/res/layout/discounts_slider.xml" value="0.33" />
+        <entry key="..\:/MyApps/FurnitureTask/app/src/main/res/layout/discounts_slider_shimmer.xml" value="0.15775972637879435" />
+        <entry key="..\:/MyApps/FurnitureTask/app/src/main/res/layout/discover_item.xml" value="0.25" />
+        <entry key="..\:/MyApps/FurnitureTask/app/src/main/res/layout/favorite_item.xml" value="0.1346328195829556" />
+        <entry key="..\:/MyApps/FurnitureTask/app/src/main/res/layout/fragment_branches.xml" value="0.33" />
+        <entry key="..\:/MyApps/FurnitureTask/app/src/main/res/layout/fragment_furniture.xml" value="0.15433946130825138" />
+        <entry key="..\:/MyApps/FurnitureTask/app/src/main/res/layout/fragment_furniture_page.xml" value="0.15433946130825138" />
+        <entry key="..\:/MyApps/FurnitureTask/app/src/main/res/layout/fragment_furniture_rate.xml" value="0.15433946130825138" />
+        <entry key="..\:/MyApps/FurnitureTask/app/src/main/res/layout/fragment_home.xml" value="0.14279606669516887" />
+        <entry key="..\:/MyApps/FurnitureTask/app/src/main/res/layout/fragment_offer_details.xml" value="0.1514052583862194" />
+        <entry key="..\:/MyApps/FurnitureTask/app/src/main/res/layout/fragment_product_details.xml" value="0.1514052583862194" />
+        <entry key="..\:/MyApps/FurnitureTask/app/src/main/res/layout/fragment_profile.xml" value="0.1346328195829556" />
+        <entry key="..\:/MyApps/FurnitureTask/app/src/main/res/layout/furniture_item.xml" value="0.15433946130825138" />
+        <entry key="..\:/MyApps/FurnitureTask/app/src/main/res/layout/list_fragment.xml" value="0.1554850407978241" />
+        <entry key="..\:/MyApps/FurnitureTask/app/src/main/res/layout/near_by_home.xml" value="0.1" />
+        <entry key="..\:/MyApps/FurnitureTask/app/src/main/res/layout/offers_slider.xml" value="0.15775972637879435" />
+        <entry key="..\:/MyApps/FurnitureTask/app/src/main/res/layout/offers_slider_shimmer.xml" value="0.15775972637879435" />
+        <entry key="..\:/MyApps/FurnitureTask/app/src/main/res/layout/pfurniture_product_page_item.xml" value="0.15433946130825138" />
+        <entry key="..\:/MyApps/FurnitureTask/app/src/main/res/layout/product_color.xml" value="0.1514052583862194" />
+        <entry key="..\:/MyApps/FurnitureTask/app/src/main/res/layout/product_image_item.xml" value="0.15433946130825138" />
+        <entry key="..\:/MyApps/FurnitureTask/app/src/main/res/layout/product_item.xml" value="0.25" />
+        <entry key="..\:/MyApps/FurnitureTask/app/src/main/res/layout/rates_item.xml" value="0.15433946130825138" />
+        <entry key="..\:/MyApps/FurnitureTask/app/src/main/res/layout/saves_slider.xml" value="0.25" />
+        <entry key="..\:/MyApps/FurnitureTask/app/src/main/res/layout/saves_slider_shimmer.xml" value="0.15775972637879435" />
+        <entry key="..\:/MyApps/FurnitureTask/app/src/main/res/layout/shimmer_discover_item.xml" value="0.15775972637879435" />
+        <entry key="..\:/MyApps/FurnitureTask/app/src/main/res/menu/bottom_nav_menu.xml" value="0.15433946130825138" />
+      </map>
+    </option>
+  </component>
+  <component name="ProjectRootManager" version="2" languageLevel="JDK_11" default="true" project-jdk-name="Android Studio default JDK" project-jdk-type="JavaSDK">
+    <output url="file://$PROJECT_DIR$/build/classes" />
+  </component>
+  <component name="ProjectType">
+    <option name="id" value="Android" />
+  </component>
+</project>
